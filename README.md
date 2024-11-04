@@ -7,11 +7,17 @@ This project implements a Naive Bayes classifier to detect spam comments in YouT
 Project Structure
 
 Data Collection: Merged multiple CSV files containing YouTube comments, cleaned the dataset, and removed irrelevant columns.
+
 Feature Engineering: Employed CountVectorizer to convert text comments into numerical features by tokenizing and counting word frequencies.
+
 Model Development: Built a Naive Bayes classifier (MultinomialNB) and trained it on labeled comment data.
+
 Evaluation: Achieved 96% accuracy, evaluated model performance using confusion matrices and classification reports.
+
 Key Files
+
 data/: Contains the dataset (YouTube comment CSV files).
+
 notebook.ipynb: Jupyter notebook with data processing, model training, and evaluation steps.
 
 Results
